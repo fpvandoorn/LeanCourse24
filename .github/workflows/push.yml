@@ -26,7 +26,7 @@ jobs:
         run: ~/.elan/bin/lake -Kenv=dev exe cache get || true
 
       - name: Build project
-        run: ~/.elan/bin/lake -Kenv=dev build Carleson
+        run: ~/.elan/bin/lake -Kenv=dev build LeanCourse
 
       - name: Cache mathlib documentation
         uses: actions/cache@v4
@@ -40,12 +40,12 @@ jobs:
             .lake/build/doc/declarations
             .lake/build/doc/find
             .lake/build/doc/*.*
-            !.lake/build/doc/declarations/declaration-data-Carleson*
+            !.lake/build/doc/declarations/declaration-data-LeanCourse*
           key: MathlibDoc-${{ hashFiles('lake-manifest.json') }}
           restore-keys: MathlibDoc-
 
       - name: Build project documentation
-        run: ~/.elan/bin/lake -Kenv=dev build Carleson:docs
+        run: ~/.elan/bin/lake -Kenv=dev build LeanCourse:docs
 
       - name: Copy documentation to `docs/docs`
         run: |

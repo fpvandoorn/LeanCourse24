@@ -7,11 +7,14 @@ set_option warningAsError false
 section
 open Lean Parser Tactic
 
+@[inherit_doc Mathlib.Tactic.RingNF.ring]
 macro (name := ring) "ring" : tactic =>
   `(tactic| first | ring1 | ring_nf)
 
+@[inherit_doc Mathlib.Tactic.RingNF.ring]
 macro (name := ring_at) "ring" cfg:config ? loc:location : tactic =>
   `(tactic| ring_nf $cfg ? $loc)
+
 
 end
 
