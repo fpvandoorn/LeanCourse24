@@ -19,6 +19,7 @@
     "LICENSE":true,
     ".devcontainer":true,
     "lean-tactics.tex":true,
+    ".github":true,
     },
     "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",

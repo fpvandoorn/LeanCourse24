@@ -31,16 +31,17 @@ Note: To get this repository, you will need to download Lean's mathematical libr
 It might be tricky to get Lean running on a laptop that is more than 10 years old or on a chromebook, since Lean does use a moderate amount of recourses.
 You can still run Lean in your browser by using Codespaces or Gitpod, see the the instructions at the bottom of this file.
 
+* If you get errors such as `curl: (35) schannel` or `uncaught exception: no such file or directory (error code: 2)` take a look [here](https://leanprover-community.github.io/install/project.html#troubleshooting).
 
 <!-- If you don't have a suitable laptop, ask the instructor Lean on a university computer, make sure to use the `fmath` local user, and ask the teacher for the password. Then run `install_lean` in a terminal and follow the steps under `Get the course repository`. -->
 <!--
 ### Get new exercises
 
-If you have already followed the steps above, and want to get the latest exercises, open a terminal in your local copy of this repository (e.g. `cd LeanCourse23`) and then run `git pull`. This gives you the new exercises.
+If you have already followed the steps above, and want to get the latest exercises, open a terminal in your local copy of this repository (e.g. `cd LeanCourse24`) and then run `git pull`. This gives you the new exercises.
 
 **Update Nov 7**: I updated the version of mathlib used in this project. This time, after running `git pull` do the following:
 * Close VSCode (if you have it open)
-* In your terminal, in the `LeanCourse23` folder, run `lake exe cache get!` (or `~/.elan/bin/lake exe cache get!` if `lake` cannot be found).
+* In your terminal, in the `LeanCourse24` folder, run `lake exe cache get!` (or `~/.elan/bin/lake exe cache get!` if `lake` cannot be found).
 * Wait until the command finishes with downloading and decompressing. If you get an error, run it again.
 * Now you can reopen VSCode and Lean should work again. -->
 
@@ -52,7 +53,7 @@ You can temporarily use Codespaces or Gitpod if you have trouble installing Lean
 
 You can temporarily play with Lean using Github codespaces. This requires a Github account, and you can only use it for a limited amount of time each month. If you are signed in to Github, click here:
 
-<a href='https://codespaces.new/fpvandoorn/LeanCourse23' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
+<a href='https://codespaces.new/fpvandoorn/LeanCourse24' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
 
 * Make sure the Machine type is `4-core`, and then press `Create codespace`
 * After 1-2 minutes you see a VSCode window in your browser. However, it is still busily downloading mathlib in the background, so give it another few minutes (5 to be safe) and then open a `.lean` file to start.
@@ -63,7 +64,7 @@ Gitpod is an alternative to codespaces that is slightly inconvenient, since it r
 
 Click this button to get started:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/fpvandoorn/LeanCourse23)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/fpvandoorn/LeanCourse24)
 
 This creates a virtual machine in the cloud,
 and installs Lean and Mathlib.
