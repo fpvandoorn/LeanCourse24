@@ -9,6 +9,7 @@ permissions:
   pages: write
   id-token: write
 
+jobs:
   build_project:
     runs-on: ubuntu-latest
     name: Build project

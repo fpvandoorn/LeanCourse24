@@ -21,6 +21,7 @@ You will find the Lean files in the `LeanCourse` directory:
 * To test that everything is working, open the repository and open the file `LeanCourse/Test.lean`.
 The file should be ready a few seconds later. If you see a blue squiggle under `#eval`, Lean is running correctly.
 
+* A useful (but optional) extension is the VSCode extension `Error Lens`. If you install this, you will see messages from Lean right in the file where you're typing.
 Optional: ErrorLens
 
 
