@@ -20,19 +20,26 @@
     ".devcontainer":true,
     "lean-tactics.tex":true,
     ".github":true,
+    "LeanCourse.lean":true,
     },
     "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off",
-    "scm.diffDecorationsGutterVisibility": "hover",
     "editor.semanticHighlighting.enabled": true,
-    "editor.semanticTokenColorCustomizations": {
-        "[Default Light+]": {"rules": {"variable": "#1a31da"}}
-    },
     "editor.unicodeHighlight.nonBasicASCII": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.rulers" : [100],
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
+    "files.encoding": "utf8",
+    "files.eol": "\n",
     "lean4.infoview.emphasizeFirstGoal": true,
-    "lean4.infoview.showExpectedType": false
+    "lean4.infoview.showExpectedType": false,
+    "files.readonlyInclude": {
+      "**/.elan/**": true,
+      "**/.lake/**": true
+    }
 }
