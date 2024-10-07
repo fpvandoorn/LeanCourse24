@@ -47,15 +47,15 @@ jobs:
       - name: Build project documentation
         run: ~/.elan/bin/lake -Kenv=dev build LeanCourse:docs
 
-      - name: Copy documentation to `docs/docs`
+      - name: Copy documentation to `docs`
         run: |
           sudo chown -R runner docs
-          cp -r .lake/build/doc docs/docs
+          cp -r .lake/build/doc docs
 
-      - name: Remove lake files from documentation in `docs/docs`
+      - name: Remove lake files from documentation in `docs`
         run: |
-          find docs/docs -name "*.trace" -delete
-          find docs/docs -name "*.hash" -delete
+          find docs -name "*.trace" -delete
+          find docs -name "*.hash" -delete
 
       # - name: Bundle dependencies
       #   uses: ruby/setup-ruby@v1
@@ -83,4 +83,4 @@ jobs:
         uses: actions/deploy-pages@v4
 
       # - name: Make sure the cache works
-      #   run: mv docs/docs .lake/build/doc
+      #   run: mv docs .lake/build/doc
