@@ -57,26 +57,26 @@ jobs:
           find docs/docs -name "*.trace" -delete
           find docs/docs -name "*.hash" -delete
 
-      # - name: Bundle dependencies
-      #   uses: ruby/setup-ruby@v1
-      #   with:
-      #     working-directory: docs
-      #     ruby-version: "3.0"
-      #     bundler-cache: true
-
-      # - name: Bundle website
-      #   working-directory: docs
-      #   run: JEKYLL_ENV=production bundle exec jekyll build
-
-      - name: Upload docs to `docs/`
-        uses: actions/upload-pages-artifact@v3
+      - name: Bundle dependencies
+        uses: ruby/setup-ruby@v1
         with:
-          path: docs/
+          working-directory: docs
+          ruby-version: "3.0"
+          bundler-cache: true
 
-      # - name: Upload docs & blueprint artifact to `docs/_site`
+      - name: Bundle website
+        working-directory: docs
+        run: JEKYLL_ENV=production bundle exec jekyll build
+
+      # - name: Upload docs to `docs/`
       #   uses: actions/upload-pages-artifact@v3
       #   with:
-      #     path: docs/_site
+      #     path: docs/
+
+      - name: Upload docs & blueprint artifact to `docs/_site`
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/_site
 
       - name: Deploy to GitHub Pages
         id: deployment
