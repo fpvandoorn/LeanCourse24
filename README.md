@@ -3,8 +3,8 @@
 ## In this repository
 
 You will find the Lean files in the `LeanCourse` directory:
-* The `Lectures` folder contains all lectures
-* The `Assignments` folder contains the assignments that you have to hand in via eCampus
+* The `Lectures` folder contains all lectures (I will post 2 versions of each lecture file: the one before
+* The `Assignments` folder contains the assignments that you have to hand in via eCampus.
 * The `MIL` folder contains the exercises from the book Mathematics in Lean. You can find the textbook online here:
 [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
 (or as a
@@ -16,14 +16,15 @@ You will find the Lean files in the `LeanCourse` directory:
 
 * This will guide you to install VSCode (a text editor which supports Lean), git (a version control system) and elan (the Lean package manager).
 
-* In the step **Set up Lean 4 project** click on **Download an existing project** (third bullet point). As the URL of the repository, use `https://github.com/fpvandoorn/LeanCourse24` and then select a folder where you want to download this repository.
+* (On Windows, antivirus programs can cause slowdowns or errors when downloading a Lean project. Consider temporarily disabling your antivirus program in the step *Set up Lean 4 project*)
 
-* To test that everything is working, open the repository and open the file `LeanCourse/Test.lean`.
+* In the step **Set up Lean 4 project** click on **Download an existing project** (third bullet point). Choose `Git repository URL`, enter `https://github.com/fpvandoorn/LeanCourse24` and then select a folder where you want to download this repository, and specify a folder name. Then press `Create project folder` and wait a few minutes.
+
+* When you have downloaded the repository a message appears allowing you to open the project folder.
+To test that everything is working, open the repository and open the file `LeanCourse/Test.lean`.
 The file should be ready a few seconds later. If you see a blue squiggle under `#eval`, Lean is running correctly.
 
 * A useful (but optional) extension is the VSCode extension `Error Lens`. If you install this, you will see messages from Lean right in the file where you're typing.
-Optional: ErrorLens
-
 
 ## Troubleshooting
 
@@ -80,3 +81,13 @@ The workspace should also stop automatically
 30 minutes after the last interaction or 3 minutes after closing the tab.
 
 To restart a previous workspace, go to [https://gitpod.io/workspaces/](https://gitpod.io/workspaces/).
+
+
+## Links
+
+* [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
+* [Lean website](https://www.lean-lang.org/)
+* [Mathlib website](https://leanprover-community.github.io/)
+* [Topics in Mathlib](https://leanprover-community.github.io/mathlib-overview.html)
+* [API documentation for this course](https://florisvandoorn.com/LeanCourse24/docs/)
+* [latest Mathlib API documentation](https://leanprover-community.github.io/mathlib4_docs/)
