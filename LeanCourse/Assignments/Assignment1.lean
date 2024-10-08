@@ -159,8 +159,10 @@ example (a b c : ℝ) : a * b * c = b * (a * c) := by {
 In the following lemma the commutator of two elements of a group is defined as
 `⁅g, h⁆ = g * h * g⁻¹ * h⁻¹`. Prove the lemma below just by using `rw`.
 
-The `variable` command below can be read as "let `G` be a group and `g` and `h` elements of `G`"
-The precise meaning of this line will be discussed in later classes.
+The `variable` command below can be read as
+"In this section, let `G` be a group and `g` and `h` elements of `G`".
+the `section` + `end` command delimit the section where the variables exist.
+The precise meaning of the syntax `{G : Type*} [Group G]` will be discussed in later classes.
 -/
 
 section
