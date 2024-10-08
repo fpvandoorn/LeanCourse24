@@ -1,6 +1,5 @@
 -- This module serves as the root of the `LeanCourse` library.
 -- Import modules here that should be built as part of the library.
-import Mathlib
 import LeanCourse.MIL.C01_Introduction.S01_Getting_Started
 import LeanCourse.MIL.C01_Introduction.S02_Overview
 import LeanCourse.MIL.C02_Basics.S01_Calculating
@@ -40,3 +39,4 @@ import LeanCourse.MIL.C11_Differential_Calculus.S02_Differential_Calculus_in_Nor
 import LeanCourse.MIL.C12_Integration_and_Measure_Theory.S01_Elementary_Integration
 import LeanCourse.MIL.C12_Integration_and_Measure_Theory.S02_Measure_Theory
 import LeanCourse.MIL.C12_Integration_and_Measure_Theory.S03_Integration
+import LeanCourse.Lectures.Lecture1

@@ -91,3 +91,9 @@ To restart a previous workspace, go to [https://gitpod.io/workspaces/](https://g
 * [Topics in Mathlib](https://leanprover-community.github.io/mathlib-overview.html)
 * [API documentation for this course](https://florisvandoorn.com/LeanCourse24/docs/)
 * [latest Mathlib API documentation](https://leanprover-community.github.io/mathlib4_docs/)
+
+Some exciting projects using Lean:
+
+* Interesting finished Lean projects: [Liquid Tensor Experiment](https://github.com/leanprover-community/lean-liquid), [Freiman-Ruzsa Conjecture](https://teorth.github.io/pfr/), [Independence of the continuum hypothesis](https://flypitch.github.io/)
+* Interesting ongoing Lean projects [Fermat's Last Theorem](https://imperialcollegelondon.github.io/FLT/), [Carleson's theorem](https://florisvandoorn.com/carleson/), [Equational Theories project](https://teorth.github.io/equational_theories/)
+* [AlphaProof](https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/) did well at the international mathematics olympiad using Lean.
