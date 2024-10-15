@@ -37,7 +37,7 @@ You can still run Lean in your browser by using Codespaces or Gitpod, see the th
 
 <!-- If you don't have a suitable laptop, ask the instructor Lean on a university computer, make sure to use the `fmath` local user, and ask the teacher for the password. Then run `install_lean` in a terminal and follow the steps under `Get the course repository`. -->
 
-### Get new exercises
+## Update repository
 
 If you want to get the latest version of this repository (e.g. the latest exercises), then
 * First commit all your changed files.
