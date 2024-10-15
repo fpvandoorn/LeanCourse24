@@ -10,10 +10,8 @@ noncomputable section
 
 /-
 # Practical remarks
-* To get the latest version of this repository,
-  run `git pull` on the command line.
-  Or use `Source Control` in VSCode
-  (third icon in the top-left, or `ctrl+shift+G`/`cmd+shift+G`)
+* To get the latest version of this repository, run `git pull` on the command line.
+  See `README` for precise instructions.
 * The first assignment due 22.10.2023. Upload it to eCampus.
 
 **Two optional activities**

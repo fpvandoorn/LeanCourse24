@@ -36,12 +36,20 @@ You can still run Lean in your browser by using Codespaces or Gitpod, see the th
 * If you get errors such as `curl: (35) schannel` or `uncaught exception: no such file or directory (error code: 2)` take a look [here](https://leanprover-community.github.io/install/project.html#troubleshooting).
 
 <!-- If you don't have a suitable laptop, ask the instructor Lean on a university computer, make sure to use the `fmath` local user, and ask the teacher for the password. Then run `install_lean` in a terminal and follow the steps under `Get the course repository`. -->
-<!--
+
 ### Get new exercises
 
-If you have already followed the steps above, and want to get the latest exercises, open a terminal in your local copy of this repository (e.g. `cd LeanCourse24`) and then run `git pull`. This gives you the new exercises.
+If you want to get the latest version of this repository (e.g. the latest exercises), then
+* First commit all your changed files.
+* Then run pull the new changes.
 
-**Update Nov 7**: I updated the version of mathlib used in this project. This time, after running `git pull` do the following:
+You can do this either via a terminal (`git commit -am "my changes" && git pull`)
+or via VSCode, in the `Source Control` tab (third icon in the top-left, or `ctrl+shift+G`/`cmd+shift+G`).
+You can commit by writing a non-empty commit message and then pressing `Commit` (you can answer "Yes" or "Always" when it asks you if you want to stage all changes.). Then under `⋯` (More actions) you can click `Pull` to get the latest changes.
+
+Note: you should *not* press `Sync`, since that will try to upload your changes to the assignment files to Github (you don't have the rights to do this).
+
+<!-- **Update Nov 7**: I updated the version of mathlib used in this project. This time, after running `git pull` do the following:
 * Close VSCode (if you have it open)
 * In your terminal, in the `LeanCourse24` folder, run `lake exe cache get!` (or `~/.elan/bin/lake exe cache get!` if `lake` cannot be found).
 * Wait until the command finishes with downloading and decompressing. If you get an error, run it again.
