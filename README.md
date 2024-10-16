@@ -39,13 +39,15 @@ You can still run Lean in your browser by using Codespaces or Gitpod, see the th
 
 ## Update repository
 
-If you want to get the latest version of this repository (e.g. the latest exercises), then
-* First commit all your changed files.
-* Then run pull the new changes.
+If you want to get the latest version of this repository (e.g. the latest exercises), then you can pull the changes. (I mentioned before you have to commit first, this is not, in fact, necessary)
 
-You can do this either via a terminal (`git commit -am "my changes" && git pull`)
-or via VSCode, in the `Source Control` tab (third icon in the top-left, or `ctrl+shift+G`/`cmd+shift+G`).
-You can commit by writing a non-empty commit message and then pressing `Commit` (you can answer "Yes" or "Always" when it asks you if you want to stage all changes.). Then under `⋯` (More actions) you can click `Pull` to get the latest changes.
+You can do this either via a terminal (`git pull`)
+or via VSCode, in the `Source Control` tab (third icon in the top-left, or `ctrl+shift+G`/`cmd+shift+G`),
+under `⋯` (More actions) you can click `Pull` to get the latest changes.
+
+<!-- You can commit by writing a non-empty commit message and then pressing `Commit` (you can answer "Yes" or "Always" when it asks you if you want to stage all changes.).  -->
+<!-- Troubleshooting: if you have configured git pull to use rebase, then you
+have to commit the changes first.  -->
 
 Note: you should *not* press `Sync`, since that will try to upload your changes to the assignment files to Github (you don't have the rights to do this).
 
