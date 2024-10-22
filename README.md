@@ -51,11 +51,15 @@ have to commit the changes first.  -->
 
 Note: you should *not* press `Sync`, since that will try to upload your changes to the assignment files to Github (you don't have the rights to do this).
 
-<!-- **Update Nov 7**: I updated the version of mathlib used in this project. This time, after running `git pull` do the following:
-* Close VSCode (if you have it open)
+We might at some point update the version of Lean for the repository (we will tell you when this happens). In that case, after running `git pull` you have to get the new Mathlib cache. In this case, *do not* restart a Lean file (which will prompt Lean to rebuild Mathlib on your laptop).
+Instead press `∀ > Project Actions... > Fetch Mathlib Build Cache` and wait for the cache to download.
+After it has finished, you might have to restart the Lean file, and then Lean should be compiling your file in less than a minute.
+
+If this fails, try the following steps:
+* Close VSCode (if it is open)
 * In your terminal, in the `LeanCourse24` folder, run `lake exe cache get!` (or `~/.elan/bin/lake exe cache get!` if `lake` cannot be found).
 * Wait until the command finishes with downloading and decompressing. If you get an error, run it again.
-* Now you can reopen VSCode and Lean should work again. -->
+* Now you can reopen VSCode and restart the file (if prompted).
 
 ## Temporary ways to use Lean
 
