@@ -13,7 +13,7 @@ open Classical
 * Do the exercises corresponding to these sections in the `LeanCourse/MIL` folder.
   There are solutions in the solution folder in case you get stuck.
 
-* Hand in the solutions to the exercises under "Exercises to hand-in". Deadline: 5.11.
+* Hand in the solutions to the exercises under "Exercises to hand-in". Deadline: 12.11.
 
 * Make sure the file you hand-in compiles without error.
   Use `sorry` if you get stuck on an exercise.
