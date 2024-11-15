@@ -35,8 +35,6 @@ You can still run Lean in your browser by using Codespaces or Gitpod, see the th
 
 * If you get errors such as `curl: (35) schannel` or `uncaught exception: no such file or directory (error code: 2)` take a look [here](https://leanprover-community.github.io/install/project.html#troubleshooting).
 
-<!-- If you don't have a suitable laptop, ask the instructor Lean on a university computer, make sure to use the `fmath` local user, and ask the teacher for the password. Then run `install_lean` in a terminal and follow the steps under `Get the course repository`. -->
-
 ## Update repository
 
 If you want to get the latest version of this repository (e.g. the latest exercises), then you can pull the changes. (I mentioned before you have to commit first, this is not, in fact, necessary)
