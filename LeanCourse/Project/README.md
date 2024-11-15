@@ -78,20 +78,6 @@ Detailed instructions in VSCode:
 
 If you would like to use Git from your command-line instead, you can use the commands `git pull`, `git add`, `git commit -am "commit message"`, `git push`, `git status`, `git log`, among others. Google for information how to exactly use these commands.
 
-
-## Presentations
-
-During January, you should give a presentation on your project during class.
-The presentation should be 20-25 minutes, plus 5 minutes for questions; it should be 30-40 minutes if you do the project with a partner.
-
-During your presentation, you can discuss the following (but you don't have to treat every point)
-* Explain the mathematical content of your formalization
-* Show some of the formalized work (for example if you have found interesting way to state a definition, or the statement of the theorem you proved).
-* What went easily when formalizing? What was hard? Were any tools or tactics particularly useful, or did you miss a specific tactic?
-
-You do not have to finish your project before your presentation, so your presentation is probably about the ongoing work. Projects are due February 9 (roughly 1 week after classes end).
-
-
 ## Formalization Topics
 
 You can choose a topic in any area of mathematics.
@@ -207,3 +193,15 @@ During class I already discussed searching using the name (using autocomplete or
 It is useful to find a definition that already exists in mathlib and is similar to what you want.
 Then you can mimic the structure of that definition.
 This can also be useful in deciding whether to use `def`, `structure` or `class`.
+
+## Presentations
+
+During January, you should give a presentation on your project during class.
+The presentation should be 20-25 minutes, plus 5 minutes for questions; it should be 30-40 minutes if you do the project with a partner.
+
+During your presentation, you can discuss the following (but you don't have to treat every point)
+* Explain the mathematical content of your formalization
+* Show some of the formalized work (for example if you have found interesting way to state a definition, or the statement of the theorem you proved).
+* What went easily when formalizing? What was hard? Were any tools or tactics particularly useful, or did you miss a specific tactic?
+
+You do not have to finish your project before your presentation, so your presentation is probably about the ongoing work. Projects are due February 9 (roughly 1 week after classes end).
