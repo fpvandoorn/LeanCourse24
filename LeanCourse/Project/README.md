@@ -97,7 +97,7 @@ Some suggested topics:
   - Prove that the Laurent series for a complex function converges on an annulus.
 
 * In **differential geometry**
-  - define differential 1-forms and exact 1-forms (closed 1-forms are harder to define).
+  - [taken] define differential 1-forms and exact 1-forms (closed 1-forms are harder to define).
     Show that on a simply connected domain, every 1-form is exact. (Mathlib is still missing a general definition of n-forms, but that is too hard for a project)
   - Prove that the product of orientable manifolds is orientable (copy-paste the definition of orientable manifold from Mathlib PR [#16239](https://github.com/leanprover-community/mathlib4/pull/16239/files) and assume your manifolds have no boundary).
   - Prove that a diffeomorphism between connected manifolds is either orientation-preserving or orientation-reversing (copy-paste the definition of orientable manifold from Mathlib PR [#16239](https://github.com/leanprover-community/mathlib4/pull/16239/files) and assume your manifolds have no boundary).
