@@ -46,7 +46,8 @@ Pushing another commit after the first one is easy:
 * Write a small commit message and press `Commit`.
 * Press `Sync changes`
 
-Make sure to commit your work at least occasionally (and definitely before giving the presentati
+Make sure to commit your work at least occasionally (and definitely before giving the presentation).
+Comitting early and often can help avoid conflicting changes if you're collaborating with a partner on your formalization project.
 
 ### Pulling commits
 
