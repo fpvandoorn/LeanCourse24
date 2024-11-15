@@ -104,12 +104,14 @@ Some suggested topics:
 
 * In **functional analysis** define Fredholm operators and prove basic properties.
 
+* As an application of **Galois theory**: constructible numbers have already been done in Lean, but there is a separate notion of constructible numbers with folding/origami. Define the numbers constructible via origami constructions and prove that it forms a field closed under square roots and cube roots. Stretch goal: classify exactly these numbers (i.e. a number is origami-constructible when there is a series of field extensions each with degree 2 or 3).
+
 * In **hyperbolic geometry** define the Poincaré model of hyperbolic geometry - either the disc model or the half-plane model (or another model altogether), and show that is satisfies most of Euclid's axioms for geometry, but that the parallel postulate fails.
 
 * In **model theory**: complete types of a language are defined in mathlib. Prove for a countable theory that if there are uncountably many types with `n` free variables, then there are continuum many. Or harder: show that in this case that the theory has continuum many non-isomorphic models.
 
 * In **number theory**:
-  - Define Carmichael numbers in Lean and formalize their basic theory, including Korselt's criterion. Prove that 561 is the smallest Carmichael number.
+  - [taken] Define Carmichael numbers in Lean and formalize their basic theory, including Korselt's criterion. Prove that 561 is the smallest Carmichael number.
   - Prove the Hasse-Minkowski theorem for quadratic forms of the form `a_1*X_1^2 + a_2 * X_2^2`. If you have time, prove the `n = 3` case `(a_1*X_1^2 + a_2 * X_2^2 + a_3 * X_3^2)`.
   - Solve some diophantine equations. For example: show that there are no nonzero integer solutions to `x^4-y^4=z^2`. Find all solutions to `x^2+y^2=z^3` and to `|2^k-3^l|=1`.
 
