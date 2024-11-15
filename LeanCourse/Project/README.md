@@ -58,15 +58,6 @@ To get new changes, do the following:
 * (optionally) press `sync changes`.
 
 Note: After you have created a fork, `git pull` will likely not work anymore from the command line. You can still pull changes from the command line using `git pull upstream master`.
-<!--
-### Latest Mathlib version
-
-If you want to update to the latest version of Mathlib, you can do this by merging your project into the branch `upstream/newversion`. In this case you have to also run `lake exe cache get!` again.
-
-Detailed instructions in VSCode:
-* Press the three dots icon at the top-right of the `source control` panel `... > Pull / Push > Fetch From All Remotes`
-* Then do `... > Branch > Merge branch > upstream/newversion`
-* Then run `lake exe cache get!` on the command line (you can do this now also within VSCode with `ctrl+shift+P`/`cmd+shift+P` and then start typing `Lean 4 Project: Fetch Mathlib Build Cache` and press enter). -->
 
 ### Working with a partner
 
@@ -97,11 +88,6 @@ On the mathlib website there are some useful pages:
 
 Some suggested topics:
 
-<!-- * In **algebraic topology** define CW-complexes and cellular (co)homology.
-  Prove some abstract properties of CW-complexes, or compute the cellular (co)homology of some concrete CW-complexes (e.g. spheres). -->
-
-<!-- * In **algebraic topology** prove the adjunction between suspensions and loop spaces. -->
-
 * In **analysis**: the Fourier transform and convolution have been defined in mathlib. Show that the Fourier transform of a convolution is the product of Fourier transforms.
 
 * In **calculus**: prove the gradient theorem for Euclidean space, also know as the fundamental theorem of calculus for line integrals. As stretch goals use it to prove the equivalence of two definitions of a conservative vector field and provide an example of a non-conservative vector field.
@@ -116,17 +102,7 @@ Some suggested topics:
   - Prove that the product of orientable manifolds is orientable (copy-paste the definition of orientable manifold from Mathlib PR [#16239](https://github.com/leanprover-community/mathlib4/pull/16239/files) and assume your manifolds have no boundary).
   - Prove that a diffeomorphism between connected manifolds is either orientation-preserving or orientation-reversing (copy-paste the definition of orientable manifold from Mathlib PR [#16239](https://github.com/leanprover-community/mathlib4/pull/16239/files) and assume your manifolds have no boundary).
 
-<!-- * In **differential geometry** define a Riemannian metric and define basic notions of Riemannian geometry. -->
-
-<!-- * In **differential geometry** define smooth `n`-forms and de Rham cohomology. -->
-
-<!-- * [taken] In **Galois theory** define constructible numbers in ℂ and prove that they form the smallest subfield of ℂ closed under square roots. If time permits, prove some famous impossibility results (trisection of an angle / doubling of a cube). Example reference: [David Cox, Galois Theory, Ch 10.1]. -->
-
-<!-- * In **game theory**, define games, pure and mixed strategies, and Nash equilibria. Assuming Brouwer's fixed point theorem, prove that there always exists a Nash equilibrium of mixed strategies. (Brouwer's fixed point theorem is [proven in Lean](https://github.com/Shamrock-Frost/BrouwerFixedPoint/blob/master/src/brouwer_fixed_point.lean#L274), though not yet incorporated in mathlib.) -->
-
 * In **functional analysis** define Fredholm operators and prove basic properties.
-
-<!-- * [taken] In **group theory**, classify all groups of order 8, or if you want a challenge, of order 16. -->
 
 * In **hyperbolic geometry** define the Poincaré model of hyperbolic geometry - either the disc model or the half-plane model (or another model altogether), and show that is satisfies most of Euclid's axioms for geometry, but that the parallel postulate fails.
 
@@ -140,8 +116,6 @@ Some suggested topics:
 * In **planar geometry** many results are missing. Choose one: the theorem of Ceva's theorem, Desargues's theorem, Feuerbach's theorem, Menelaus's theorem, Morley's trisecor theorem.
 
 * In noncommutative **ring theory**: prove the Artin-Wedderburn Theorem (classification theorem for semisimple rings and algebras). This is listed as a TODO in `Mathlib.RingTheory.SimpleModule`.
-
-<!-- * In **set theory** define club sets, stationary sets and prove Fodor's lemma. -->
 
 * In **topology**:
   - [general topology] Define the adjunction space or pushout of topological spaces and prove topological properties and the universal property of this space.
