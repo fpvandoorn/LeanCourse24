@@ -47,7 +47,7 @@ under `⋯` (More actions) you can click `Pull` to get the latest changes.
 <!-- Troubleshooting: if you have configured git pull to use rebase, then you
 have to commit the changes first.  -->
 
-Note: you should *not* press `Sync`, since that will try to upload your changes to the assignment files to Github (you don't have the rights to do this).
+Note: you should *not* press `Sync`, since that will try to upload your changes to the assignment files to GitHub (you don't have the rights to do this).
 
 We might at some point update the version of Lean for the repository (we will tell you when this happens). In that case, after running `git pull` you have to get the new Mathlib cache. In this case, *do not* restart a Lean file (which will prompt Lean to rebuild Mathlib on your laptop).
 Instead press `∀ > Project Actions... > Fetch Mathlib Build Cache` and wait for the cache to download.
@@ -65,7 +65,7 @@ You can temporarily use Codespaces or Gitpod if you have trouble installing Lean
 
 ### Using Codespaces
 
-You can temporarily play with Lean using Github codespaces. This requires a Github account, and you can only use it for a limited amount of time each month. If you are signed in to Github, click here:
+You can temporarily play with Lean using GitHub codespaces. This requires a GitHub account, and you can only use it for a limited amount of time each month. If you are signed in to GitHub, click here:
 
 <a href='https://codespaces.new/fpvandoorn/LeanCourse24' target="_blank" rel="noreferrer noopener"><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
 
