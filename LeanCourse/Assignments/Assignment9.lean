@@ -92,20 +92,7 @@ lemma mono_exercise_part3 (f : ℝ → ℝ) (hf : Continuous f) (h2f : Injective
     have := mono_exercise_part2 (OrderDual ℝ) hf h2f hab h2ab
     rw [strictMonoOn_dual_iff.symm] at this
     exact this
-  -- sorry
-  by_contra h
-  simp [not_or, StrictMono, StrictAnti] at h
-  obtain ⟨⟨a, b, hab, h2ab⟩, ⟨c, d, hcd, h2cd⟩⟩ := h
-  have h3cd : f c < f d := h2cd.lt_of_ne (h2f.ne hcd.ne)
-  have h1 : a < c
-  · by_contra h
-    simp at h
-    exact mono_exercise_part2 ℝ hf h2f hcd.le h3cd h (h.trans hab.le) hab |>.not_le h2ab
-  have h2 : f c ≤ f a
-  · by_contra h
-    simp at h
-    exact mono_exercise_part2 ℝ hf h2f h1.le h left_mem_Ici hab.le hab |>.not_le h2ab
-  exact this hcd.le h3cd (h1.le.trans hcd.le) hcd.le h1 |>.not_le h2
+  sorry
   }
 
 end
@@ -142,9 +129,7 @@ example : ¬ DifferentiableAt ℝ (fun x : ℝ ↦ |x|) 0 := by {
   sorry
   }
   -- sorry
-  have h5 := h.derivWithin h3
-  rw [← h.derivWithin h4, h1.derivWithin h3, h2.derivWithin h4] at h5
-  norm_num at h5
+  sorry
   }
 
 
