@@ -69,12 +69,12 @@ jobs:
         run: JEKYLL_ENV=production bundle exec jekyll build
 
       # - name: Upload docs to `docs/`
-      #   uses: actions/upload-pages-artifact@v3
+      #   uses: actions/upload-pages-artifact@v4
       #   with:
       #     path: docs/
 
       - name: Upload docs & blueprint artifact to `docs/_site`
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: docs/_site
 
